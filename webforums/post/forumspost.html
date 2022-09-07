@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <title>TelCorum</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body>
+    <!-- NavBar -->
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+            <div class="logo-container">
+                <h3 class="logo">
+                    <a href="../index.php">TELC<span>ORUM</span></a>
+                </h3>
+            </div>
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link">
+                            <a href="../index.php">Home</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="../forums.php">Forums</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="../news.php">News</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="log-sign">
+                    <a href="../loginsystem/login.php" class="btn transparent">Log In</a>
+                    <a href="../loginsystem/signup.php" class="btn solid">Sign Up</a>
+                </div>
+            </div>
+            <div class="side-menu-container">
+                <div class="side-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Content -->
+    <div class="container-satu">
+        <h1>Forums Diskusi Telekomunikasi</h1>
+        <p class="tageline">A Platform About The World of Telecmmunication</p>   
+    </div>
+    <div id="forum-diskusi">
+        <div class= "tag-kategori">
+            <i class="fas fa-tag">Tag/Kategori</i>
+        </div>
+        <br>
+        <div class="sub-forum-diskusi">
+            <div class="head-forum">
+                <p class="author">Author</p>
+                <p class="topic">Topic : Random Topic [ Judul Topic ]</p>
+            </div>
+            <table id="user-post">
+                <tr>
+                    <td style="width: 10%; background: rgb(189, 187, 187); text-align: center; vertical-align: text-top; padding-top: 10px;">
+                        <i class="fas fa-user-circle" style="font-size: 80px;"></i>
+                        <br>
+                        Username Author
+                    </td>
+                    <td style="width: 75%; background: rgb(255, 255, 255);">
+                        <div class="kolom-dua">
+                            <div class="kolom-waktu">
+                                31 October 2021 [tanggal post]
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, sequi.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis veniam hic cupiditate ipsam aut odit, blanditiis sit excepturi pariatur repellendus, vero cum necessitatibus saepe, natus ratione ipsum nulla. Obcaecati, dolores.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero asperiores perferendis cupiditate at magnam quas perspiciatis, eum sint quia deleniti.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero asperiores perferendis cupiditate at magnam quas perspiciatis, eum sint quia deleniti.</p>
+                            <div class="kolom-komen">
+                                <button onclick="showComment()">
+                                    <i class="far fa-comment-dots" style="font-size:large"></i>
+                                </button>
+                                <i class="fas fa-share-alt" style="padding-left: 10px ;"></i>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <!-- comment area -->
+            <div class="comment-area hide" id="comment-area">
+                <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <br>
+        <!-- table comment -->
+        <div class="sub-forum-diskusi">
+            <table id="user-post">
+                <tr>
+                    <td style="width: 10%; background: rgb(189, 187, 187); text-align: center; vertical-align: text-top; padding-top: 10px;">
+                        <i class="fas fa-user-circle" style="font-size: 80px;"></i>
+                        <br>
+                        Username Replier
+                    </td>
+                    <td style="width: 75%; background: rgb(255, 255, 255);">
+                        <div class="kolom-dua comment-table">
+                            <div class="kolom-waktu">
+                                5 November 2021 [tanggal komen]
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, sequi.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis veniam hic cupiditate ipsam aut odit, blanditiis sit excepturi pariatur repellendus, vero cum necessitatibus saepe, natus ratione ipsum nulla. Obcaecati, dolores.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero asperiores perferendis cupiditate at magnam quas perspiciatis, eum sint quia deleniti.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero asperiores perferendis cupiditate at magnam quas perspiciatis, eum sint quia deleniti.</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="inner-footer">
+            Contact Us
+            <div class="medsos">
+                <ul>
+                    <li class="medsos-item">
+                        <a href="">
+                            <i class="fas fa-envelope" style="font-size:24px;"></i>
+                        </a>
+                    </li>
+                    <li class="medsos-item">
+                        <a href="">
+                            <i class="fab fa-facebook-square" style="font-size:24px;"></i>                        </a>
+                    </li>
+                    <li class="medsos-item">
+                        <a href="">
+                            <i class="fab fa-twitter" style="font-size:24px;"></i>
+                        </a>
+                    </li>
+                    <li class="medsos-item">
+                        <a href="">
+                            <i class="fab fa-instagram" style="font-size:24px;"></i>
+                        </a>
+                    </li>
+                    <li class="medsos-item">
+                        <a href="">
+                            <i class="fab fa-whatsapp" style="font-size:24px;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="outer-footer">
+            Copyright &copy; TELCORUM. All Rights Reserved
+        </div>
+    </footer>
+    <script src="../main.js"></script>
+</body>
+</html> 

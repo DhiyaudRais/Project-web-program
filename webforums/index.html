@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <title>TelCorum</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- NavBar -->
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+            <div class="logo-container">
+                <h3 class="logo">
+                    <a href="index.php">TELC<span>ORUM</span></a>
+                </h3>
+            </div>
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul class="active">
+                        <li class="nav-link">
+                            <a href="index.php">Home</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="forums.php">Forums</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="news.php">News</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="log-sign">
+                    <a href="loginsystem/login.php" class="btn transparent">Log In</a>
+                    <a href="loginsystem/signup.php" class="btn solid">Sign Up</a>
+                </div> 
+                <!-- dropdown   -->
+                <div class="dropdown">
+                    <button onclick=" OnClick()" class="dropbtn">
+                        <img src="R.png" alt="">
+                        Dhiyaud Dien Rais
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="user/profile.html"><i class="far fa-user"></i>View Profile</a>
+                        <a href="user/editprofile.php"><i class="fas fa-user-edit"></i>Edit Profile</a>
+                        <a href="#contact"><i class="fas fa-sign-out-alt"></i>Log Out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="side-menu-container">
+                <div class="side-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Content -->
+    <div class="container-satu">
+        <h1>Forums Diskusi Telekomunikasi</h1>
+        <p class="tageline">A Platform About The World of Telecmmunication</p>
+        <button class="post-diskusi">
+            <i class="fas fa-pen-alt">
+                <a href="post/postdiskusi.php"> Post Diskusi</a>
+            </i>
+        </button>
+        <br>
+        <div class="container-dua">
+            <div class="kolom-utama">
+                <div class="sub-kolom-utama-satu">
+                    <div id="head-table">
+                        <a href="#">LATE POST</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <td id="judul-forum"><a href="post/forumspost.php">Judul Diskusi</a></td>
+                            <td id="thread-message"><span>Messages</span><br>10</td>
+                            <td id="author"><a href="#" class="user">Username</a>
+                                <br>
+                                7 Oct 2021
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="judul-forum"><a href="forumspost.php">Judul Diskusi</a></td>
+                            <td id="thread-message"><span>Messages</span><br>10</td>
+                            <td id="author"><a href="#" class="user">Username</a>
+                                <br>
+                                7 Oct 2021
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="judul-forum"><a href="forumspost.php">Judul Diskusi</a></td>
+                            <td id="thread-message"><span>Messages</span><br>10</td>
+                            <td id="author"><a href="#" class="user">Username</a>
+                                <br>
+                                7 Oct 2021
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="sub-kolom-utama-dua">
+                    <div id="head-table">
+                        <a href="#">KATEGORI</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <td id="judul-forum"><a href="forumspost.php">Judul Diskusi</a></td>
+                            <td id="thread-message"><span>Messages</span><br>10</td>
+                            <td id="author"><a href="" class="user">Username</a>
+                                <br>
+                                7 Oct 2021
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="judul-forum"><a href="forumspost.php">Judul Diskusi</a></td>
+                            <td id="thread-message"><span>Messages</span><br>10</td>
+                            <td id="author"><a href="" class="user">Username</a>
+                                <br>
+                                7 Oct 2021
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="judul-forum"><a href="forumspost.php">Judul Diskusi</a></td>
+                            <td id="thread-message"><span>Messages</span><br>10</td>
+                            <td id="author"><a href="" class="user">Username</a>
+                                <br>
+                                7 Oct 2021
+                            </td>
+                        </tr>
+                        <tr>
+                    </table>
+                </div>
+                <div class="sub-kolom-utama-dua">
+                    <div id="head-table">
+                        <a href="#">KATEGORI</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <td id="judul-forum"><a href="forumspost.php">Judul Diskusi</a></td>
+                            <td id="thread-message"><span>Messages</span><br>10</td>
+                            <td id="author"><a href="" class="user">Username</a>
+                                <br>
+                                7 Oct 2021
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="judul-forum"><a href="forumspost.php">Judul Diskusi</a></td>
+                            <td id="thread-message"><span>Messages</span><br>10</td>
+                            <td id="author"><a href="" class="user">Username</a>
+                                <br>
+                                7 Oct 2021
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="judul-forum"><a href="forumspost.php">Judul Diskusi</a></td>
+                            <td id="thread-message"><span>Messages</span><br>10</td>
+                            <td id="author"><a href="" class="user">Username</a>
+                                <br>
+                                7 Oct 2021
+                            </td>
+                        </tr>
+                        <tr>
+                    </table>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="sub-sidebar-satu">
+                    <div id="head-sub-sidebar">
+                        NEWS
+                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <a href="#">Judul Berita</a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus velit, ipsa iste dolore perferendis totam!</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Judul Berita</a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus velit, ipsa iste dolore perferendis totam!</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="sub-sidebar-dua">
+                    <div id="head-sub-sidebar">
+                        KATEGORI
+                    </div>
+                    <ul id="tag">
+                        <li><a href="#" class="tag">Web Desing</a></li>
+                        <li><a href="#" class="tag">Network</a></li>
+                        <li><a href="#" class="tag">Radio Frequency</a></li>
+                        <li><a href="#" class="tag">Antenna</a></li>
+                    </ul>
+                </div>
+                <div class="sub-sidebar-tiga">
+                    <div id="head-sub-sidebar">
+                        FORUMS STATISTIC
+                    </div>
+                    <table>
+                        <tr class="statistic">
+                            <td>Messages :</td>
+                            <td>100</td>
+                        </tr>
+                        <tr class="statistic">
+                            <td>Members :</td>
+                            <td>150</td>
+                        </tr>
+                        <tr class="statistic">
+                            <td>Last Member :</td>
+                            <td>Username</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="sub-sidebar-empat">
+                    <div id="head-sub-sidebar">
+                        SHARE THIS PAGE
+                    </div>
+                    <div class="medsos">
+                        <ul>
+                            <li class="medsos-item">
+                                <a href="">
+                                    <i class="fas fa-envelope" style="font-size:24px;"></i>
+                                </a>
+                            </li>
+                            <li class="medsos-item">
+                                <a href="">
+                                    <i class="fab fa-facebook-square" style="font-size:24px;"></i>
+                                </a>
+                            </li>
+                            <li class="medsos-item">
+                                <a href="">
+                                    <i class="fab fa-twitter" style="font-size:24px;"></i>
+                                </a>
+                            </li>
+                            <li class="medsos-item">
+                                <a href="">
+                                    <i class="fab fa-instagram" style="font-size:24px;"></i>
+                                </a>
+                            </li>
+                            <li class="medsos-item">
+                                <a href="">
+                                    <i class="fab fa-whatsapp" style="font-size:24px;"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="inner-footer">
+            Contact Us
+            <div class="medsos">
+                <ul>
+                    <li class="medsos-item">
+                        <a href="">
+                            <i class="fas fa-envelope" style="font-size:24px;"></i>
+                        </a>
+                    </li>
+                    <li class="medsos-item">
+                        <a href="">
+                            <i class="fab fa-facebook-square" style="font-size:24px;"></i>                        </a>
+                    </li>
+                    <li class="medsos-item">
+                        <a href="">
+                            <i class="fab fa-twitter" style="font-size:24px;"></i>
+                        </a>
+                    </li>
+                    <li class="medsos-item">
+                        <a href="">
+                            <i class="fab fa-instagram" style="font-size:24px;"></i>
+                        </a>
+                    </li>
+                    <li class="medsos-item">
+                        <a href="">
+                            <i class="fab fa-whatsapp" style="font-size:24px;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="outer-footer">
+            Copyright &copy; TELCORUM. All Rights Reserved
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html> 
